@@ -3,7 +3,7 @@
 This repository contains the **Postman Collection** and documentation for testing the Backend API system of our Group Project.
 
 ## 🔗 Project Resources
-* **Main Project Repository:** [Insert your Group Project GitHub Link Here]
+* **Main Project Repository:** [https://github.com/Chamodi27s/Predictive-Income-and-Repair-Time-Analytics-and-Forecasting-System-for-Multi9-Computer-Systems]
 * **Postman Collection File:** `group_project_v2.postman_collection.json`
 
 ## 🛠️ Tested API Endpoints
