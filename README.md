@@ -21,6 +21,8 @@ Data Input: 📝 Body (form-data)
 Status: 200 OK
 
 Description: Handles new customer registration along with device issue reporting.
+<img width="1237" height="295" alt="image" src="https://github.com/user-attachments/assets/c6699fad-7a89-4c53-9d29-d620dc529f2c" />
+
 
 💵 Cashbook View
 
@@ -33,6 +35,8 @@ Data Input: 🔗 Query Parameters
 Status: 200 OK
 
 Description: Retrieves financial records based on date and account details.
+<img width="1231" height="285" alt="Screenshot 2026-01-30 214455" src="https://github.com/user-attachments/assets/00912872-fbd4-4686-8f99-e09f98393c92" />
+
 
 ## 🚀 How to Use (Getting Started)
 
