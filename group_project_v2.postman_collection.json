@@ -1,0 +1,55 @@
+{
+	"info": {
+		"name": "Group Project API - Full Collection",
+		"description": "Includes User Registration and Cashbook View APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "User Registration & Issue Report",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{ "key": "phone_number", "value": "0786798654", "type": "text" },
+						{ "key": "customer_name", "value": "amal perera", "type": "text" },
+						{ "key": "email", "value": "amal@gamil.com", "type": "text" },
+						{ "key": "address", "value": "alwwa,galdeniya", "type": "text" },
+						{ "key": "name", "value": "hasindu", "type": "text" },
+						{ "key": "device_name", "value": "laptop", "type": "text" },
+						{ "key": "issue_name", "value": "Battery", "type": "text" },
+						{ "key": "warranty_status", "value": "Warranty", "type": "text" },
+						{ "key": "description", "value": "lapbag", "type": "text" }
+					]
+				},
+				"url": {
+					"raw": "http://localhost/project/register.php",
+					"protocol": "http",
+					"host": ["localhost"],
+					"path": ["project", "register.php"]
+				}
+			}
+		},
+		{
+			"name": "Cashbook View",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/project/cashbook_view.php?date=30/01/2026&acc_name=BOC Account&account_no=123456789&balance=33456.00",
+					"protocol": "http",
+					"host": ["localhost"],
+					"path": ["project", "cashbook_view.php"],
+					"query": [
+						{ "key": "date", "value": "30/01/2026" },
+						{ "key": "acc_name", "value": "BOC Account" },
+						{ "key": "account_no", "value": "123456789" },
+						{ "key": "balance", "value": "33456.00" }
+					]
+				}
+			}
+		}
+	]
+}
