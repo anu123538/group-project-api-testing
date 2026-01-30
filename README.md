@@ -18,7 +18,7 @@ Endpoint: .../register.php
 
 Data Input: 📝 Body (form-data)
 
-Status: ✅ Active
+Status: 200 OK
 
 Description: Handles new customer registration along with device issue reporting.
 
@@ -30,7 +30,7 @@ Endpoint: .../cashbook_view.php
 
 Data Input: 🔗 Query Parameters
 
-Status: ✅ Active
+Status: 200 OK
 
 Description: Retrieves financial records based on date and account details.
 
